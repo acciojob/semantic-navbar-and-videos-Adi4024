@@ -1,2 +1,46 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* Navbar styling */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Video section */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+video {
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
